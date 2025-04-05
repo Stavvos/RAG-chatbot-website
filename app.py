@@ -58,7 +58,8 @@ def generate_bot_response(message):
     if message is not None:
 
         rag_prompt = f"""
-        You're task is to answer student's questions. 
+
+        If you are unsure about an answer say 'Sorry i don't know the answer to your question'
 
         The question: {message}
 
