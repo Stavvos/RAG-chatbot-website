@@ -37,4 +37,4 @@ This application uses open ai's gpt-4o-mini.
 5. When running html2txt.py, only add the filenames when prompted, a file path isn't needed.   
 6. You get a chroma database after the pip install. To update it with your own data run tools/createDatabase.py.
 7. Note: you can guide the chatbot's answers by replacing the text on line 62 of app.py with some custom guidlines. 
-8. The app.py will return a link in the command line interface when its run. Open that link in a browser. 
+8. The app.py file will return a link in the command line interface when its run. Open that link in a browser. 
